@@ -1,24 +1,24 @@
 # Turtle C++
 
-Autor: Jhoel Huallpar Dorado
+ ## Autor: Jhoel Huallpar Dorado ##
 
 
 						Turtle en C++
 
-Documetacion
+## Documetacion ##
 
 La documentacion esta de forma detallada esta en la carpeta Output 
 dentro de esa carpeta debes ingresar a la carpeta html, 
 una vez dentro de html ingresas al archivo index.html.
 
 ***********************************************************************
-Instalacion
+## Instalacion ##
 
 Para poder instalar el opengl deberas copiar todo el contenido de la carpeta 
 freeglut en la siguiente direccion C:\MinGW\mingw32
  
  ****************************************************************************
-Graficar desde el codigo fuente
+## Graficar desde el codigo fuente ##
  
  Para poder compilar, deberas ingresar a la carpeta Turtle, 
  una vez dentro, deberas entrar a la carpeta Turtle.cpp,
@@ -26,7 +26,7 @@ Graficar desde el codigo fuente
  drawsnow.
  
  **************************************************************************************
- Compilacion desde la Consola
+ ## Compilacion desde la Consola ##
  
  Para poder compilar el codigo, debereas colocar el comando en la consola el siguiente comando,
  
@@ -41,7 +41,7 @@ Graficar desde el codigo fuente
 
 ********************************************************
 
-para mayor informacion ingresar a los siguientes link
+## Para mayor informacion ingresar a los siguientes link ##
 
 
 https://open.gl/

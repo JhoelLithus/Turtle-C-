@@ -21,21 +21,34 @@ Turtle t;
 /** "drawsnow() " esta funcion permite dibujar las diferentes figuras utilizando las funciones de Turtle. */
 void drawsnow()   //Funcion Dibujar
 {
-   	t.reset();
+	t.reset();
    	t.positionini(-0.5, -0.2);
    	t.setvalue(0.0);
    	
-	//DRAW
-	t.forward(0.5);
-	t.left(90);
-	//t.penup();   //Levantar Lapiz
-	t.forward(0.5);
-	t.left(90);
-	t.forward(0.5);  
-	//t.pendown();	//Bajar Lapiz
-	t.left(90);
-	t.forward(0.5);
-	t.left(90);
+
+	    t.forward(0.1);
+	    t.left(60);
+	    t.forward(0.1);
+	    t.right(120);
+	    t.forward(0.1);
+	    t.right(60);
+	    t.forward(0.1);
+	    
+	    //t.forward(0.1);
+	    t.left(60);
+	    t.forward(0.1);
+	    t.right(120);
+	    t.forward(0.1);
+	    t.right(60);
+	    //t.forward(0.1);
+	    
+	    t.forward(0.1);
+	    t.left(60);
+	    t.forward(0.1);
+	    t.right(120);
+	    t.forward(0.1);
+	    t.right(60);
+	    t.forward(0.1);
 	
 }
 /** " display() " esta funcion esta relacionada a la libreria opengl, la cual nos permite dibujar diferentes objetos */
@@ -70,6 +83,10 @@ int main(int argc, char ** argv)
    glutDisplayFunc(display); // Pantalla de Graficos
 	
 	Turtle t;
+	for(int i=0;i<1000;i++){
+		t.forward(100);
+		t.forward(-100);
+	}
 	t.forward(100);
    glutMainLoop();
 

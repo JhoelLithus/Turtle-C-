@@ -50,6 +50,25 @@ void drawsnow()   //Funcion Dibujar
 	    t.right(60);
 	    t.forward(0.1);
 	
+	// Opcion II Draw STAR
+	
+		t.reset();
+   		t.positionini(-0.2, 0.5);
+   		t.setvalue(0.0);
+   		
+	   	int grados = 0;
+	  	for(int x=1; x<40; x++)
+	   	{
+	       	for(int x=0; x<4; x++)
+	       	{
+	       		t.forward(0.15);
+			    t.left(90);
+			}
+			
+			t.left(grados + 10);
+		}  	
+	
+	
 }
 /** " display() " esta funcion esta relacionada a la libreria opengl, la cual nos permite dibujar diferentes objetos */
 void display()
